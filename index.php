@@ -22,10 +22,10 @@ $html = <<<'ENDHTML'
 </html>
 ENDHTML;
 
-$dompdf->load_html($html);
+
 $dompdf->render();
 
-$dompdf->stream("hello.pdf");
+$dompdf->stream("hello.pdf");1
 ?>
 		
 </body>
