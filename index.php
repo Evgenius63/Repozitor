@@ -17,7 +17,7 @@ $dompdf = new DOMPDF();
 $html = <<<'ENDHTML'
 <html>
  <body>
-  <h1>Hello Dompdf</h1>
+  <h1>Hello Dompdf</h1>22222222222222
  </body>
 </html>
 ENDHTML;
